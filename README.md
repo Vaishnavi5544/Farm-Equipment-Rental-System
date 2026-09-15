@@ -1,131 +1,132 @@
-<<<<<<< HEAD
-# Agric equipment rental system
-The aim of this project is to provide means for farmers to rent and also lease farming 
-equipments for an agreed period of time. the application automatically 
-tracks the equipments on rent and shows its availability.
+# Farm Equipment Rental System
 
+The **Farm Equipment Rental System** is a web-based application developed to provide farmers and buyers with an easy platform to rent, lease, and purchase agricultural equipment and tools.
 
-## User Module
-**FARMER
+The system helps users view available equipment, check availability, make rental requests, purchase agricultural products, and manage their profiles.
 
-Farmer login to the application using the username and Password He / She can view # Agric Equipment Rental System
+## Features
 
-The aim of this project is to provide means for farmers to rent and also lease farming equipments for an agreed period of time. The application automatically tracks the equipments on rent and shows its availability.
+- Farmer and Buyer login
+- User registration and authentication
+- View available agricultural equipment
+- Rent and lease farming equipment
+- Book equipment in advance
+- Purchase agricultural tools and products
+- Product search
+- Shopping cart management
+- Rental/request management
+- User profile management
+- Equipment availability tracking
+- MySQL database integration
 
-## User Module
+## User Modules
 
-### FARMER
+### Farmer
 
-Farmer login to the application using the username and Password. He / She can view the list of machineries ordered in a particular area.
+Farmers can:
 
-They can perform the analytics and sanction the machineries based on the requirements.
+- Login using their username and password
+- View available farming machinery and equipment
+- Check equipment availability
+- Request or rent equipment
+- Manage their profile
+- View their requests
 
-### BUYER
+### Buyer
 
-Buyer login to the application using the username and Password. He / She can view the list of machineries available in a particular area.
+Buyers can:
 
-They can make purchases of tools available and also book equipments in advance.
+- Login using their username and password
+- View available agricultural products and equipment
+- Search for products
+- Purchase available products
+- Add products to the shopping cart
+- Book equipment in advance
+- Manage their profile
 
-This application is composed mainly of two parts:
+## Technologies Used
 
 ### Frontend
 
-This part is responsible for user interaction, includes the design, layout and UI elements.
-
-It is responsible for presenting content and data to users.
-
-**Technology used:** HTML, CSS (Bootstrap framework)
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- jQuery
 
 ### Backend
 
-This part is mainly responsible for the storage purpose.
+- PHP
+- MySQL
 
-It includes the database and other processes that are not visually seen on the browser.
+### Development Environment
 
-**Technology used:** PHP, MySQL
+- XAMPP
+- Apache
+- MySQL
+- PHPMyAdmin
 
-## Project Requirement
+## Database
 
-- Project Name: Agric Equipment Rental System
-- Language Used: PHP 5.6, PHP 7.x
-- Database: MySQL 5.x
-- UI Design: HTML, CSS, Bootstrap, JavaScript
-- Web Browser: Mozilla, Google Chrome, IE8, Opera
+The project uses **MySQL** as its database.
 
-## How to Run
+**Database Name:**
 
-1. Download the project.
-2. Extract the project folder.
-3. Copy the project folder inside the XAMPP `htdocs` directory.
-4. Start **Apache** and **MySQL** from XAMPP.
-5. Open PHPMyAdmin: `http://localhost/phpmyadmin`
-6. Create a database with the name `marigafarm`.
-7. Import the `marigafarm.sql` file into the `marigafarm` database.
-8. Open the project in your browser.
+```text
+marigafarm
+The database file is included in the project:
+
+marigafarm.sql
+Project Setup
+1. Install XAMPP
+
+Install XAMPP and start:
+
+Apache
+MySQL
+2. Copy the Project
+
+Copy the project folder into the XAMPP htdocs directory.
 
 Example:
 
-`http://localhost/farm%20equipment%20rental%20system/`
+C:\xampp\htdocs\farm equipment rental system
+3. Create the Database
 
-## Login Credential
+Open PHPMyAdmin:
 
-- Username: admin
-- Password: 123456
+http://localhost/phpmyadmin
 
-## Project Status
+Create a database named:
 
-Not Complete
-the list of machineries ordered in a particular area. 
-They can perform the analytics and sanction the machineries based on the requirements
+marigafarm
+4. Import the Database
 
-**BUYER
+Select the marigafarm database and import the following file:
 
-Buyer login to the application using the username and Password He / She can can view
-the list of machineries available in a particular area.
-They can make purchases of tools available and also book eqiupments in advance
+marigafarm.sql
+5. Run the Project
 
+Open the following URL in your browser:
 
-This application is composed mainly of two parts:
+http://localhost/farm%20equipment%20rental%20system/
+Login Credentials
+Admin
+Username: admin
+Password: 123456
+Project Status
 
-Frontend:
-This part is responsible for user interaction, includes the design, layout and ui elements.
-It is responsible for presenting content and data to users.
-technology used: Html, Css (Bootstrap framework)
+Completed
 
-Backend:
-This part is mainly responsible for the storage purpose.
-it includes the database and other processes 
-that are not visually seen on the browser
-technology used: php, mysql
+Future Enhancements
+Online payment integration
+Email and SMS notifications
+Advanced search and filtering
+Rental history
+Admin dashboard
+Improved security and authentication
+Responsive design improvements
+Online deployment
+Purpose
 
-## Project requirement:
-[![Get](https://img.shields.io/badge/Xampp-fb7a24)](https://www.apachefriends.org/)
-[![Get](https://img.shields.io/badge/Wamp-blue)](https://www.wampserver.com/en/)
-[![Get](https://img.shields.io/badge/Mamp-green)](https://www.mamp.info/en/downloads/) 
-[![Get](https://img.shields.io/badge/Ampps-7f00ff)](https://ampps.com/downloads/)
-- Project Name: Agric equipment rental system
-- Language Used: PHP 5.6, PHP7.x
-- Database: MySQL 5.x
-- UI Design: Html, Css, Bootstrap, Javascript
-- Web Browser: Mozilla, Google chrome, IE8, Opera
-
-## How to run:
-1) Download the Zip file
-2) Extract the file and and copy "mariga" folder
-3) paste inside root directory
-For xampp: "xampp/htdocs"
-For wamp:  "wamp/www"
-For lamp:  "var/www/HTML"
-4) Open PHPMyAdmin (http://localhost/phpmyadmin)
-5) Create a database with the name "marigafarm"
-6) Import marigafarm.sql file (in the root directory)
-7) Run the script (http://localhost/mariga)
-
-### Login Credential:
-* Username: admin
-* password: 123456
-
-<b> Project Status:</b> ` Not complete `
-=======
-# Farm-Equipment-Rental-System
->>>>>>> 00507631edf4bfb242342c1b4730c1e2c0b3ed4c
+This project was developed for educational and project demonstration purposes.
